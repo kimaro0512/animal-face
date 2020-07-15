@@ -1,6 +1,7 @@
 body {
     font-family: 'Do Hyeon', sans-serif;
     background-color: #ffffff;
+    margin-top: -60px;
 }
 
 .file-upload {
@@ -146,7 +147,6 @@ body {
 }
 
 .youtube-link {
-    font-family: NanumSquareR;
     font-size: 1.5rem;
     line-height: 1.71;
     text-align: center;
@@ -155,7 +155,6 @@ body {
 }
 
 .youtube-link:hover {
-    font-family: NanumSquareR;
     font-size: 1.5rem;
     line-height: 1.71;
     text-align: center;
