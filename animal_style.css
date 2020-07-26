@@ -5,11 +5,11 @@ body {
 }
 
 .file-upload {
-    padding: 15% 3%;
+    padding: 10% 3%;
     margin: 0 auto;
     border-radius: 10px;
     border: solid 1.5px #f6f7fa;
-    background-color: #f6f7fa;
+    background-color: #fgi6f7fa;
 }
 
 .file-upload-btn {
@@ -140,9 +140,6 @@ body {
 @media screen and (max-width: 600px) {
     html {
         font-size: 10px;
-    }
-    .navbar-brand {
-        font-size: 2rem;
     }
 }
 
@@ -513,4 +510,55 @@ body {
     0%{ left: 0; }
     50%{ left: 0; }
     100%{ left: 0; }
+}
+
+
+.page-header {
+    border-bottom: 1px solid #eee;   
+}
+
+
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+
+.thumbnail a@img, .thumbnail>img {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.col-xs-6 {
+    width: 50%;
+    float: left;
+}
+
+@media (min-width: 1200px)
+.col-lg-3 {
+    width: 25%;
+    float: left;
+}
+
+@media (min-width: 992px)
+.col-md-4 {
+    width: 33.33333333%;
+    float: left;
 }
