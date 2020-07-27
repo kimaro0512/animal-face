@@ -92,17 +92,17 @@ body {
 }
 
 .try-again-btn {
-  border-radius: 40px;
-  border: solid 1.5px #35465d;
-  background-color: #35465d;
+    border-radius: 40px;
+    border: solid 1.5px #35465d;
+    background-color: #35465d;
 }
 
 .try-again-text {
-  display: block;
-  font-size: 1.5rem;
-  text-align: center;
-  color: #ffffff;
-  padding: 4px 15px;
+    display: block;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #ffffff;
+    padding: 4px 15px;
 }
 
 .nav-distance {
@@ -179,7 +179,7 @@ body {
 }
 
 .upload {
-    width: 20%
+    width: 20%;
 }
 
 .animal-label {
@@ -195,169 +195,163 @@ body {
 
 .result-message {
     font-size: 2rem;
+    color: #6A5ACD;
 }
 
 .bar-container {
-  height: 2.7rem;
+    height: 2.7rem;
 }
 
 .dinosaur-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(117, 204, 84, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(117, 204, 84, 0.2);
 }
 
 .dinosaur-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(117, 204, 84, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(117, 204, 84, 1);
 }
 
 .deer-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(117, 204, 84, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(117, 204, 84, 0.2);
 }
 
 .deer-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(117, 204, 84, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(117, 204, 84, 1);
 }
 
 .dog-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(27, 175, 234, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(27, 175, 234, 0.2);
 }
 
 .dog-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(27, 175, 234, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(27, 175, 234, 1);
 }
 
 .cat-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(251, 176, 59, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(251, 176, 59, 0.2);
 }
 
 .cat-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(251, 176, 59, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(251, 176, 59, 1);
 }
 
 .bear-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(195, 140, 102, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(195, 140, 102, 0.2);
 }
 
 .bear-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(195, 140, 102, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(195, 140, 102, 1);
 }
 
 .fox-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(49, 132, 155, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(49, 132, 155, 0.2);
 }
 
 .fox-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(49, 132, 155, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(49, 132, 155, 1);
 }
 
 .rabbit-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(235, 166, 190, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(235, 166, 190, 0.2);
 }
 
 .rabbit-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(235, 166, 190, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(235, 166, 190, 1);
 }
 
 .percent-text {
-  font-size: 1rem;
-  color: #ffffff;
+    font-size: 1rem;
+    color: #ffffff;
 }
 
-
-
-
-*
-{
+* {
     outline: none;
-    -webkit-tap-highlight-color:transparent;
+    -webkit-tap-highlight-color: transparent;
 }
 
-
-#app-cover
-{
+#app-cover {
     position: relative;
     width: 180px;
     height: 70px;
 }
 
-#checkbox
-{
+#checkbox {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -367,8 +361,7 @@ body {
     z-index: 3;
 }
 
-#path
-{
+#path {
     width: 180px;
     height: 70px;
     padding: 20px;
@@ -376,8 +369,7 @@ body {
     background-color: #dae3fb;
 }
 
-#knob
-{
+#knob {
     position: absolute;
     top: 10px;
     left: 10px;
@@ -390,8 +382,7 @@ body {
     z-index: 1;
 }
 
-#bow
-{
+#bow {
     position: absolute;
     left: 0;
     right: 0;
@@ -401,15 +392,13 @@ body {
     transition: 0.2s ease color;
 }
 
-#bow i
-{
+#bow i {
     display: block;
     font-size: 34px;
     line-height: 1;
 }
 
-#gender
-{
+#gender {
     position: absolute;
     top: 55%;
     right: 30px;
@@ -420,145 +409,166 @@ body {
     margin-top: -15px;
 }
 
-#fe
-{
+#fe {
     position: absolute;
     left: -85px;
-    color: #E91E63;
+    color: #e91e63;
     transition: 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55) all;
 }
 
-#male
-{
+#male {
     left: 0;
 }
 
-#male, #male span
-{
+#male,
+#male span {
     position: relative;
 }
 
-#bow, #male span
-{
+#bow,
+#male span {
     color: #7aa0ff;
 }
 
-#male span
-{
+#male span {
     z-index: 1;
 }
 
-#male:before
-{
+#male:before {
     content: 'MALE';
     position: absolute;
     top: 0;
     left: 0;
     width: 0;
-    color: #E91E63;
+    color: #e91e63;
     white-space: pre;
     overflow: hidden;
     transition: 0.2s cubic-bezier(0.4, 0, 1, 1) all;
     z-index: 2;
 }
 
-#path.fe
-{
+#path.fe {
     background-color: #f8f1f7;
 }
 
-#checkbox:checked ~ #knob
-{
+#checkbox:checked ~ #knob {
     transform: rotateZ(-135deg);
     box-shadow: 0 0 6px #ffe2fe;
 }
 
-#knob #bow.fe
-{
-    color: #E91E63;
+#knob #bow.fe {
+    color: #e91e63;
 }
 
-#checkbox:checked ~ #gender #fe
-{
+#checkbox:checked ~ #gender #fe {
     left: -26px;
 }
 
-#male.fe:before
-{
-    width:100%;
+#male.fe:before {
+    width: 100%;
 }
 
-#checkbox:checked ~ #gender #male
-{
+#checkbox:checked ~ #gender #male {
     animation: move 0.2s ease 0.4s;
 }
 
-#male.ma
-{
+#male.ma {
     animation: move_l 0.2s ease 0.1s;
 }
 
-@keyframes move
-{
-    0%{ left: 0; }
-    50%{ left: 0; }
-    100%{ left: 0; }
+@keyframes move {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: 0;
+    }
+    100% {
+        left: 0;
+    }
 }
 
-@keyframes move_l
-{
-    0%{ left: 0; }
-    50%{ left: 0; }
-    100%{ left: 0; }
+@keyframes move_l {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: 0;
+    }
+    100% {
+        left: 0;
+    }
 }
 
+@import url(https://fonts.googleapis.com/css?family=Open + Sans);
 
-.page-header {
-    border-bottom: 1px solid #eee;   
-}
-
-
-.thumbnail {
+label {
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
     display: block;
-    padding: 4px;
-    margin-bottom: 20px;
-    line-height: 1.42857143;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    -webkit-transition: border .2s ease-in-out;
-    -o-transition: border .2s ease-in-out;
-    transition: border .2s ease-in-out;
+    width: 800px;
+    height: 200px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    margin-top: 160px;
 }
 
-.thumbnail a@img, .thumbnail>img {
-    margin-right: auto;
-    margin-left: auto;
+.card {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: all 600ms;
+    transition: all 600ms;
+    z-index: 20;
+    border-radius: 30px;
 }
 
-.img-responsive, .thumbnail a>img, .thumbnail>img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+.card div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    line-height: 200px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 30px;
+    font-size: 2rem;
+    color: #663399;
 }
 
-img {
-    vertical-align: middle;
+.card .back {
+    /* background: #222;
+        color: #FFF; */
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
 }
 
-.col-xs-6 {
-    width: 50%;
-    float: left;
+label:hover .card {
+    -webkit-transform: rotateX(20deg);
+    transform: rotateX(20deg);
+    box-shadow: 0 20px 20px rgba(50, 50, 50, 0.2);
 }
 
-@media (min-width: 1200px)
-.col-lg-3 {
-    width: 25%;
-    float: left;
+#celeb-box {
+    display: none;
 }
 
-@media (min-width: 992px)
-.col-md-4 {
-    width: 33.33333333%;
-    float: left;
+:checked + .card {
+    transform: rotateX(180deg);
+    -webkit-transform: rotateX(180deg);
+}
+
+label:hover :checked + .card {
+    transform: rotateX(160deg);
+    -webkit-transform: rotateX(160deg);
+    box-shadow: 0 20px 20px rgba(255, 255, 255, 0.2);
 }

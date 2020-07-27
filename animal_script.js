@@ -94,98 +94,97 @@ async function predict() {
     const prediction = await model.predict(image);
     prediction.sort((a, b) => parseFloat(b.probability) - parseFloat(a.probability));
     console.log(prediction[0].className);
-    var resultTitle, resultExplain, resultCeleb;
+    var resultTitle, resultType, resultCeleb;
     if (document.getElementById('checkbox').checked == false) {
         switch (prediction[0].className) {
             case 'dog':
-                resultTitle = '귀여운 순둥이 강아지상';
-                resultExplain = '';
-                resultCeleb = '';
+                resultTitle = '귀여운 강아지상';
+                resultType = '대표 강아지상 연예인';
+                resultCeleb = '강다니엘, 백현(엑소), 박보검, 송중기';
                 // resultCeleb = '강아지상 연예인: 강다니엘, 백현(엑소), 박보검, 송중기';
                 break;
             case 'cat':
-                resultTitle = '츤데레 매력쟁이 고양이상';
-                resultExplain = '';
-                resultCeleb = '';
+                resultTitle = '츤데레 고양이상';
+                resultType = '대표 고양이상 연예인';
+                resultCeleb = '시우민(엑소), 강동원, 이종석, 이준기';
                 // resultCeleb =
                 //     '고양이상 연예인: 황민현(뉴이스트), 시우민(엑소), 강동원, 이종석, 이준기';
                 break;
             case 'rabbit':
-                resultTitle = '천진난만한 매력의 토끼상';
-                resultExplain = '';
-                resultCeleb = '';
+                resultTitle = '천진난만한 토끼상';
+                resultType = '대표 토끼상 연예인';
+                resultCeleb = '정국(방탄소년단), 바비(아이콘), 박지훈(워너원), 수호(엑소)';
                 // resultCeleb =
                 //     '토끼상 연예인: 정국(방탄소년단), 바비(아이콘), 박지훈(워너원), 수호(엑소)';
                 break;
             case 'dinosaur':
-                resultTitle = '따뜻한 나쁜남자 공룡상';
-                resultExplain = '';
-                resultCeleb = '';
+                resultTitle = '나쁜남자 공룡상';
+                resultType = '대표 공룡상 연예인';
+                resultCeleb = '이민기, 김우빈, 육성재(비투비), 공유';
                 // resultCeleb =
                 //     '공룡상 연예인: 윤두준(하이라이트), 이민기, 김우빈, 육성재(비투비), 공유';
                 break;
             case 'bear':
-                resultTitle = '포근한 매력의 곰상';
-                resultExplain = '';
-                resultCeleb = '';
+                resultTitle = '포근한 곰상';
+                resultType = '대표 곰상 연예인';
+                resultCeleb = '마동석, 조진웅, 조세호, 안재홍';
                 // resultCeleb = '곰상 연예인: 마동석, 조진웅, 조세호, 안재홍';
                 break;
             default:
                 resultTitle = '알수없음';
-                resultExplain = '';
+                resultType = '';
                 resultCeleb = '';
         }
     } else {
         switch (prediction[0].className) {
             case 'dog':
-                resultTitle = '귀여운 순둥이 강아지상';
-                resultExplain = '';
-                resultCeleb = '';
+                resultTitle = '귀여운 강아지상';
+                resultType = '대표 강아지상 연예인';
+                resultCeleb = '박보영, 아이유, 윤승아, 한지민';
                 // resultCeleb = '강아지상 연예인: 박보영, 아이유, 윤승아, 민아(걸스데이), 한지민';
                 break;
             case 'cat':
-                resultTitle = '츤데레 매력쟁이 고양이상';
-                resultExplain = '';
-                resultCeleb = '';
+                resultTitle = '츤데레 고양이상';
+                resultType = '대표 고양이상 연예인';
+                resultCeleb = '안소희(원더걸스), 오연서, 한예슬, 이성경';
                 // resultCeleb = '고양이상 연예인: 안소희(원더걸스), 오연서, 한예슬, 이성경, 이효리';
                 break;
             case 'rabbit':
-                resultTitle = '상큼발랄한 매력의 토끼상';
-                resultExplain = '';
-                resultCeleb = '';
+                resultTitle = '상큼발랄한 토끼상';
+                resultType = '대표 토끼상 연예인';
+                resultCeleb = '수지, 나연(트와이스), 예린(여자친구), 문채원';
                 // resultCeleb =
                 //     '토끼상 연예인: 수지, 나연(트와이스), 예린(여자친구), 한승연(카라), 문채원';
                 break;
             case 'deer':
-                resultTitle = '온순하고 우아한 사슴상';
-                resultExplain = '';
-                resultCeleb = '';
+                resultTitle = '우아한 사슴상';
+                resultType = '대표 사슴상 연예인';
+                resultCeleb = '윤아(소녀시대), 이연희, 고아라, 문근영';
                 // resultCeleb =
                 //     '사슴상 연예인: 윤아(소녀시대), 이연희, 고아라, 문근영, 정유미(부산행 배우)';
                 break;
             case 'fox':
-                resultTitle = '섹시한 밀당고수 여우상';
-                resultExplain = '';
-                resultCeleb = '';
+                resultTitle = '섹시한 여우상';
+                resultType = '대표 여우상 연예인';
+                resultCeleb = '경리(나인뮤지스), 예지(있지), 한혜진(모델), 헤이즈';
                 // resultCeleb =
                 //     '여우상 연예인: 경리(나인뮤지스), 예지(있지), 한혜진(모델), 헤이즈, 지연(티아라)';
                 break;
             default:
                 resultTitle = '알수없음';
-                resultExplain = '';
+                resultType = '';
                 resultCeleb = '';
         }
     }
     var title =
         "<div class='" + prediction[0].className + "-animal-title'>" + resultTitle + '</div>';
-    var explain = "<div class='animal-explain pt-2'>" + resultExplain + '</div>';
-    var celeb =
-        "<div class='" +
-        prediction[0].className +
-        "-animal-celeb pt-2 pb-2'>" +
-        resultCeleb +
-        '</div>';
-    $('.result-message').html(title + explain + celeb);
+    
+    var celebType = '<div class="front" id="animal-type">' + resultType + '</div>';
+    var celebList = '<div class="back" id="celeb-list">' + resultCeleb + '</div>';
+    
+    $('.result-message').html(title);
+    $('.card').html(celebType + celebList);
+    $('.celeb-label').show();
 
     for (let i = 0; i < maxPredictions; i++) {
         if (prediction[i].probability.toFixed(2) > 0.1) {
